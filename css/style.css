@@ -5,15 +5,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  margin: 0;
+  padding: 10px;
 }
 
 .container {
   background: #1e293b;
   padding: 20px;
   border-radius: 12px;
-  width: 500px;
+  width: 90%;
+  max-width: 600px;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .input-group,
@@ -21,6 +25,11 @@ body {
   display: flex;
   gap: 10px;
   margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.action-group {
+  justify-content: space-between;
 }
 
 .input-group input,
@@ -29,16 +38,19 @@ body {
   padding: 10px;
   border: none;
   border-radius: 6px;
+  box-sizing: border-box;
 }
 
 .input-group input {
   flex: 1;
+  min-width: 0;
 }
 
 button {
   background: #3b82f6;
   color: white;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 button:hover {
@@ -54,9 +66,36 @@ th,
 td {
   padding: 8px;
   border-bottom: 1px solid #475569;
+  text-align: center;
 }
 
 .status-done {
   text-decoration: line-through;
   color: #94a3b8;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  th,
+  td {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .input-group input,
+  .input-group button,
+  .action-group button {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
 }
