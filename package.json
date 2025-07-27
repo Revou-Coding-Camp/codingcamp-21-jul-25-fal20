@@ -16,5 +16,8 @@
     "url": "https://github.com/Revou-Coding-Camp/codingcamp-21-jul-25-fal20/issues"
   },
   "homepage": "https://github.com/Revou-Coding-Camp/codingcamp-21-jul-25-fal20#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
 }
