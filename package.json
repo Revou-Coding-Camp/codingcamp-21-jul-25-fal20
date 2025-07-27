@@ -1,0 +1,20 @@
+{
+  "name": "codingcamp-21-jul-25-fal20",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Revou-Coding-Camp/codingcamp-21-jul-25-fal20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Revou-Coding-Camp/codingcamp-21-jul-25-fal20/issues"
+  },
+  "homepage": "https://github.com/Revou-Coding-Camp/codingcamp-21-jul-25-fal20#readme",
+  "description": ""
+}
